@@ -26,7 +26,7 @@ const getJogosTodosURL = 'http://localhost:5081/api/games/get'
 
 const getTodosJogos = async () => {
 	try {
-		const responseTodosJogos = await fetch(getJogosTodosURL ); // pega a url e direcionar buscar
+		const responseTodosJogos = await fetch(getJogosTodosURL); // pega a url e direcionar buscar
 		const TodosJogos = await responseTodosJogos.json();
 		return TodosJogos; // retorna pokemon pesquisado
 

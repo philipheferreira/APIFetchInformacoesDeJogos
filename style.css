@@ -1,0 +1,17 @@
+.titulo{
+	text-align: center;
+}
+
+.container{
+	display: flex;
+	margin: 15px;
+
+}
+
+.card{
+	margin: 15px;
+}
+
+.descricaoJogo1{
+	width: 500px;
+}
