@@ -25,6 +25,11 @@
 	width: 100%;
 }
 
+.descricaoJogo2, .descricaoJogo3, .descricaoJogo4{
+	height: 126px;
+}
+
+
 .botao1, .botao2, .botao3, .botao4{
 	border: none; /* Elimina as bordas */
 	padding: 12px; /* Aumenta  tamanh do botao */
