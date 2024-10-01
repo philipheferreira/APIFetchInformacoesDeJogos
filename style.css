@@ -4,15 +4,30 @@
 
 .container{
 	display: flex;
-	margin: 15px;
 	justify-content: space-around;
 	flex-wrap: wrap;
 }
 
 .card{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	max-width: 400px; /* Define largura maxima */
 	margin: 15px;
+	font-family: arial;
 }
 
-.descricaoJogo1{
-	width: 500px;
+.tituloJogo{
+	font-size: 22px;
+	margin-left: 2%;
+}
+
+.imgJogo{
+	max-height: 300px;
+	width: 100%;
+}
+
+
+
+.descricaoJogo1, .descricaoJogo1, .descricaoJogo1, .descricaoJogo1, .texto{
+	margin-right: 1%;
+	margin-left: 1%;
 }
