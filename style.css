@@ -26,8 +26,7 @@
 }
 
 
-
-.descricaoJogo1, .descricaoJogo1, .descricaoJogo1, .descricaoJogo1, .texto{
-	margin-right: 1%;
-	margin-left: 1%;
+.descricaoJogo1, .descricaoJogo2, .descricaoJogo3, .descricaoJogo4, .texto{
+	margin-right: 5%;
+	margin-left: 5%;
 }
