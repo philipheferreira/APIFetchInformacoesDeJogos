@@ -8,6 +8,9 @@
 	flex-wrap: wrap;
 }
 
+
+/* COMEÇO DAS CONFIGURAÇÕES DOS CARDS */
+
 .card{
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 	max-width: 400px; /* Define largura maxima */
@@ -88,4 +91,30 @@
 .descricaoJogo1, .descricaoJogo2, .descricaoJogo3, .descricaoJogo4, .texto{
 	margin-right: 5%;
 	margin-left: 5%;
+}
+
+/* fIM DAS CONFIGURAÇÕES DOS CARDS */
+
+footer{
+	width: 100%;
+	background:#DB8A8A;
+	height: 260px;
+}
+
+.container-footer{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.footer-sobre p{
+	width: 600px;
+}
+
+.footer-desenvolvedores{
+	display: flex;
+	justify-content: space-between;
+}
+
+.desenvolvedor-frontend{
+	margin: 10px;
 }
