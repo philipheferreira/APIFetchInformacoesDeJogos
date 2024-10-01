@@ -25,6 +25,60 @@
 	width: 100%;
 }
 
+.botao1, .botao2, .botao3, .botao4{
+	border: none; /* Elimina as bordas */
+	padding: 12px; /* Aumenta  tamanh do botao */
+	color: #ffffff;
+	background-color: #0d0d0d;
+	width: 100%; /* Botao preenche todo  card */
+	font-size: 18px;
+	transition: 0.8s;
+}
+
+.botao1:hover, .botao2:hover, .botao3:hover, .botao4:hover{
+	cursor: pointer;
+}
+
+.botao1{
+	background-color: #ff0000;
+	color: #ffffff;
+}
+
+.botao2{
+	background-color: #0000e6;
+	color: #ffffff;
+}
+
+.botao3{
+	background-color: #cc0000;
+	color: #ffffff;
+}
+
+.botao4{
+	background-color: #ac00e6;
+	color: #ffffff;
+}
+
+.botao1:hover{
+	background-color: #ffffff;
+	color: #ff0000;
+}
+
+.botao2:hover{
+	background-color: #ffffff;
+	color: #0000e6;
+}
+
+.botao3:hover{
+	background-color: #ffffff;
+	color: #cc0000;
+}
+
+.botao4:hover{
+	background-color: #ffffff;
+	color: #ac00e6;
+}
+
 
 .descricaoJogo1, .descricaoJogo2, .descricaoJogo3, .descricaoJogo4, .texto{
 	margin-right: 5%;
