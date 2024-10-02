@@ -95,10 +95,12 @@
 
 /* fIM DAS CONFIGURAÇÕES DOS CARDS */
 
+/* COMEÇO DAS CONFIGURAÇÕES DO RODAPÉ */
+
 footer{
 	width: 100%;
 	background:#DB8A8A;
-	height: 260px;
+	height: auto; /* Ajusta automaticamente para o espaço alocado internamente */
 }
 
 .container-footer{
@@ -106,8 +108,18 @@ footer{
 	justify-content: space-evenly;
 }
 
+.imgFooterDesenvolvedorFrontend{
+	border-radius: 50%;
+	height: 70px;
+	margin-left: 25%;
+}
+
+.footer-sobre{
+	margin-left: 15px;
+}
+
 .footer-sobre p{
-	width: 600px;
+	max-width: 600px;
 }
 
 .footer-desenvolvedores{
@@ -118,3 +130,11 @@ footer{
 .desenvolvedor-frontend{
 	margin: 10px;
 }
+
+.linha{
+	border-top-color:#bbb;
+  	opacity:0.5;
+  	width: 90%;
+}
+
+/* FIM DAS CONFIGURAÇÕES DE RODAPÉ */
