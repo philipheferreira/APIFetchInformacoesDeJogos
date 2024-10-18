@@ -128,7 +128,8 @@
 
 footer{
 	width: 100%;
-	background:#DB8A8A;
+	color: #f1f1f1;
+	background-color:#333;
 	height: auto; /* Ajusta automaticamente para o espaço alocado internamente */
 }
 
@@ -145,7 +146,7 @@ footer{
 }
 
 .container-footer:after{
- content: "";
+ 	content: "";
   display: table;
   clear: both;
 }
@@ -174,6 +175,10 @@ footer{
   	width: 90%;
 }
 
+.footer-text-final{
+		margin-left: 5%;
+	}
+
 @media screen and (max-width: 780px) {
   .column {
     width: 100%;
@@ -199,6 +204,7 @@ footer{
 
 	.footer-text-final{
 		text-align: center;
+		margin: 0;
 	}
 
 	.desenvolvedor-frontend{
