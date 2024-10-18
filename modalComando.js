@@ -1,3 +1,5 @@
+
+/* Inicio da declaração das variaveis modais */
 let modal1 = document.querySelector(".modal1");
 
 let modal2 = document.querySelector(".modal2");
@@ -5,7 +7,9 @@ let modal2 = document.querySelector(".modal2");
 let modal3 = document.querySelector(".modal3");
 
 let modal4 = document.querySelector(".modal4");
+/* Fim das declarações das variaveis modais */
 
+/* Inicio da declaração dos botões de inicialização das modais */
 let btnModal1 = document.querySelector(".botao1");
 
 let btnModal2 = document.querySelector(".botao2");
@@ -13,7 +17,9 @@ let btnModal2 = document.querySelector(".botao2");
 let btnModal3 = document.querySelector(".botao3");
 
 let btnModal4 = document.querySelector(".botao4");
+/* Fim da declaração dos botões de inicialização das modais */
 
+/*  */
 let btnFechar = document.querySelector(".fechar");
 
 

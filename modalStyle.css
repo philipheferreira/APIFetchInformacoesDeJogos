@@ -45,20 +45,50 @@
   to {top:0; opacity:1}
 }
 
-.modalHeader{
+.modalHeader1, .modalHeader2, .modalHeader3, .modalHeader4{
 	padding: 2px 16px;
-	background-color: #5cb85c;
 	color: white;
+}
+
+.modalHeader1{
+	background-color: #ff0000;
+}
+
+.modalHeader2{
+	background-color: #0000e6;
+}
+
+.modalHeader3{
+	background-color: #cc0000;
+}
+
+.modalHeader4{
+	background-color: #ac00e6;
 }
 
 .modalBody{
 	padding: 2px 16px;
 }
 
-.modalFooter{
+.modalFooter1, .modalFooter2, .modalFooter3, .modalFooter4 {
 	padding: 2px 16px;
-	background-color: #5cb85c;
 	color: white;
+}
+
+.modalFooter1{
+	background-color: #ff0000;
+}
+
+.modalFooter2{
+	background-color: #0000e6;
+}
+
+.modalFooter3{
+	background-color: #cc0000;
+}
+
+.modalFooter4{
+	background-color: #ac00e6;
 }
 
 
