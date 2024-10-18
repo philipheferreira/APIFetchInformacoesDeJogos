@@ -18,7 +18,19 @@ let btnFechar = document.querySelector(".fechar");
 
 
 let fecharModal = () => {
-	modal1.style.display = "none";
+	if(modal1.style.display == "block"){
+		modal1.style.display = "none";
+	}else 
+	if(modal2.style.display == "block"){
+		modal2.style.display = "none";
+	}else 
+	if(modal3.style.display == "block"){
+		modal3.style.display = "none";
+	}else 
+	if(modal4.style.display == "block"){
+		modal4.style.display = "none";
+	}
+	
 }
 
 btnModal1.addEventListener("click", function(){
